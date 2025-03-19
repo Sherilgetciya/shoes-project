@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    animation: slideIn 1s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.hero .btn:hover {
+    background: #218838;
+}
+
+/* About Section */
+.about {
+    padding: 30px;
+    background: white;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Product Section */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.products h2 {
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Product Card */
+.product {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Hover Effect */
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.product p {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    padding: 20px;
+    background: #333;
+    color: white;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact .social a {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
